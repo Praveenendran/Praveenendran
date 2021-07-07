@@ -1,0 +1,5 @@
+a=int(input("Enter number 1 :"))
+b=int(input("Enter number 2 :"))
+x=(a//10)+(b%10)
+y=(a%10)+(b//10)
+print(f"{x}+{y}={x+y}")
